@@ -160,6 +160,7 @@ p.lead {
 	font-size: 1.7rem;
 	line-height: 1.8;
 	color: #737373;
+	margin-top:7rem;
 }
 @media only screen and (max-width:768px) {
 	p.lead {
@@ -379,7 +380,8 @@ dl,
 form,
 .fluid-video-wrapper,
 .iw-custom-select {
-	margin-bottom: 3rem;
+	margin-bottom: 4rem;
+    margin-left: 2rem;
 }
 
 /**
@@ -500,25 +502,19 @@ input[type="url"],
 input[type="password"],
 textarea,
 select {
-	display: block;
-	height: 6rem;
-	padding: 1.5rem 2rem;
-	border: 0;
-	outline: none;
-	vertical-align: middle;
-	color: #737373;
-	font-family: "merriweather-regular", sans-serif;
-	font-size: 1.5rem;
-	line-height: 3rem;
-	border-radius: 3px;
-	background: #FFFFFF;
-	max-width: 100%;
-	border: 1px solid #d5d5d5;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	-webkit-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
+    display: inline-block;
+    height: 5rem;
+    padding: 2rem 5rem;
+    border: none;
+    outline: none;
+    vertical-align: middle;
+    color: #737373;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    border-radius: 3px;
+    background: #232933;
 }
 .ss-custom-select {
 	position: relative;
@@ -627,21 +623,20 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-	display: inline-block;
-	font-family: "raleway-bold", sans-serif;
-	font-size: 1.6rem;
-	height: 5rem;
-	line-height: 5rem;
-	padding: 0 3rem;
-	margin: 0 .3rem 1rem 0;
-	background: #d8d8d8;
-	color: #252525;
-	text-decoration: none;
-	cursor: pointer;
-	text-align: center;
-	white-space: nowrap;
-	border: none;
-	border-radius: 1000px;
+	    font-family: "raleway-bold", sans-serif;
+    font-size: 1.6rem;
+    height: 4rem;
+    line-height: 4rem;
+    padding: 0 3rem;
+    margin: 0 3rem 0 8rem;
+    background: #d8d8d8;
+    color: #252525;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    border: none;
+    border-radius: 1000px;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -746,6 +741,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 /**	color: rgba(0, 0, 0, 0.45);*/
 }
 .section-intro .with-bottom-line {
+	text-align: justify;
 	position: relative;
 	overflow: hidden;
 }
@@ -842,7 +838,7 @@ header .logo a {
 	color: transparent;
 	width: 42px;
 	height: 42px;
-	background: url("../images/logo.png") no-repeat center;
+	
 	background-size: 42px 42px;
 	-moz-transition: all 0.5s ease-in-out;
 	-o-transition: all 0.5s ease-in-out;
@@ -1530,6 +1526,7 @@ a.menu-toggle {
  */
 
 #features {
+	text-align: justify;
 	background: #090909 url(../images/features-bg.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -1997,6 +1994,7 @@ a.menu-toggle {
  */
 
 #faq {
+	text-align: justify;
 	background: #EAEAED;
 	padding-top: 12rem;
 	padding-bottom: 12rem;

@@ -190,6 +190,7 @@ html {
 }
 *, *::before, *::after {
 	box-sizing: inherit;
+	    list-style-type: none;
 }
 body {
 	font-weight: normal;
@@ -317,7 +318,7 @@ textarea {
 	float: right;
 }
 [class*="col-"] {
-	padding: 0 20px;
+	padding: 0 50px;
 }
 .col-one {
 	width: 8.33333%;
