@@ -1526,13 +1526,12 @@ a.menu-toggle {
  */
 
 #features {
-	text-align: justify;
 	background: #090909 url(../images/features-bg.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	padding-top: 12rem;
-	padding-bottom: 12rem;
+	padding-bottom: 18rem;
 	color: white;
 }
 #features .section-intro h1 {
@@ -1567,31 +1566,6 @@ a.menu-toggle {
 	line-height: 1.765;
 	color: #05bca9;
 	margin-bottom: 1.8rem;
-}
-
-/**
- * responsive:
- * features
- * -
- */
-
-@media only screen and (max-width:768px) {
-	.features-content {
-		max-width: 600px;
-	}
-	.features-list .feature {
-		padding: 0 15px;
-	}
-}
-@media only screen and (max-width:600px) {
-	.features-list .feature {
-		padding: 0 10px;
-	}
-}
-@media only screen and (max-width:400px) {
-	.features-list .feature {
-		padding: 0;
-	}
 }
 
 
