@@ -381,7 +381,7 @@ form,
 .fluid-video-wrapper,
 .iw-custom-select {
 	margin-bottom: 4rem;
-    margin-left: 2rem;
+    margin-left: 2.7rem;
 }
 
 /**
@@ -1212,6 +1212,7 @@ a.menu-toggle {
 	font-size: 1.4rem;
 	text-transform: uppercase;
 	letter-spacing: .4rem;
+	margin-left: 1rem;
 }
 .intro-content .button:hover, .intro-content .button:focus {
 	color: #05bca9;
@@ -1526,6 +1527,7 @@ a.menu-toggle {
  */
 
 #features {
+	text-align: justify;
 	background: #090909 url(../images/features-bg.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -1533,6 +1535,7 @@ a.menu-toggle {
 	padding-top: 12rem;
 	padding-bottom: 18rem;
 	color: white;
+    
 }
 #features .section-intro h1 {
 	color: white;
@@ -1567,6 +1570,8 @@ a.menu-toggle {
 	color: #05bca9;
 	margin-bottom: 1.8rem;
 }
+
+
 
 
 /** 
