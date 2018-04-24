@@ -2362,6 +2362,6 @@ footer ul li {
 /*# sourceMappingURL=main.css.map */
  .rightpic {
     float: left; /* Выравнивание по  краю */
-    margin: 0 5px 5px 5px; /* Отступы вокруг фотографии */
+    margin: 0 5px 5px 0; /* Отступы вокруг фотографии */
 	margin-top: 15.7rem;
    }
