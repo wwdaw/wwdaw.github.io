@@ -190,6 +190,7 @@ html {
 }
 *, *::before, *::after {
 	box-sizing: inherit;
+	    list-style-type: none;
 }
 body {
 	font-weight: normal;
@@ -222,6 +223,7 @@ img, video {
 div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
 	margin: 0;
 	padding: 0;
+	
 }
 h1, h2, h3, h4, h5, h6 {
 	-webkit-font-variant-ligatures: common-ligatures;
@@ -317,7 +319,7 @@ textarea {
 	float: right;
 }
 [class*="col-"] {
-	padding: 0 20px;
+	padding: 0 50px;
 }
 .col-one {
 	width: 8.33333%;

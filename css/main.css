@@ -741,7 +741,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 /**	color: rgba(0, 0, 0, 0.45);*/
 }
 .section-intro .with-bottom-line {
-	text-align: justify;
+	
 	position: relative;
 	overflow: hidden;
 }
@@ -1438,8 +1438,7 @@ a.menu-toggle {
 .process-content .image-part {
 	margin: 0 auto;
 	height: 660px;
-	background-image: url("../images/appdesign.jpg");
-	background-repeat: no-repeat;
+		background-repeat: no-repeat;
 	background-position: center;
 	-webkit-background-size: contain;
 	-moz-background-size: contain;
@@ -2361,3 +2360,8 @@ footer ul li {
     border: 1px solid #333; /* Параметры рамки */
    }
 /*# sourceMappingURL=main.css.map */
+ .rightpic {
+    float: left; /* Выравнивание по  краю */
+    margin: 0 5px 5px 5px; /* Отступы вокруг фотографии */
+	margin-top: 15.7rem;
+   }
