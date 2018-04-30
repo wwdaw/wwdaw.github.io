@@ -315,6 +315,10 @@ textarea {
 [class*="col-"], .bgrid {
 	float: left;
 }
+[class*="col-"], .bgrid1 {
+	float: left;
+}
+
 [class*="col-"] + [class*="col-"]:last-child {
 	float: right;
 }
@@ -492,7 +496,8 @@ textarea {
 .block-1-2 .bgrid {
 	width: 50%;
 }
-
+.block-1-2 .bgrid1 {
+width: 33%; }
 /**
  * Clearing for block grid columns. Allow columns with 
  * different heights to align properly.
