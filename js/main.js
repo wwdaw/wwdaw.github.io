@@ -120,7 +120,25 @@
 
    });
 
+/*----------------------------------------------------*/
+  	/* Flexslider
+  	/*----------------------------------------------------*/
+  	$(window).load(function() {
 
+	   $('#testimonial1-slider').flexslider({
+	   	namespace: "flex-",
+	      controlsContainer: "",
+	      animation: 'slide',
+	      controlNav: true,
+	      directionNav: true,
+	      smoothHeight: true,
+	      slideshowSpeed: 7000,
+	      animationSpeed: 600,
+	      randomize: false,
+	      touch: true,
+	   });
+
+   });
 	/*----------------------------------------------------*/
   	/* Smooth Scrolling
   	------------------------------------------------------*/
