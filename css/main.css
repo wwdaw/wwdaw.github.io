@@ -426,7 +426,29 @@ img.pull-left {
 }
 
 
-
+.bgrid1 {
+	padding: 0 20px;
+}
+@media only screen and (max-width:1024px) {
+	.bgrid1 {
+		padding: 0 18px;
+	}
+}
+@media only screen and (max-width:768px) {
+	.bgrid1 {
+		padding: 0 15px;
+	}
+}
+@media only screen and (max-width:600px) {
+	.bgrid1 {
+		padding: 0 10px;
+	}
+}
+@media only screen and (max-width:400px) {
+	.bgrid1 {
+		padding: 0;
+	}
+}
 
 /** 
  * ===================================================================
@@ -1589,7 +1611,9 @@ a.menu-toggle {
 .pricing-content .bgrid {
 	margin-bottom: 3.6rem;
 }
-
+.pricing-content .bgrid1 {
+	margin-bottom: 3.6rem;
+}
 .pricing-content .price-block {
 	background-color: #FFFFFF;
 	border-radius: 5px;
@@ -2205,7 +2229,9 @@ a.menu-toggle {
 .faq-content .bgrid {
 	padding: 0 30px;
 }
-
+.faq-content .bgrid1 {
+	padding: 0 30px;
+}
 /**
  * responsive:
  * faq
@@ -2228,7 +2254,16 @@ a.menu-toggle {
 	}
 }
 
-
+@media only screen and (max-width:480px) {
+	.faq-content .bgrid1 {
+		padding: 0 20px;
+	}
+}
+@media only screen and (max-width:400px) {
+	.faq-content .bgrid1 {
+		padding: 0;
+	}
+}
 /** 
  * ===================================================================
  * ad-section
